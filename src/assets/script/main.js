@@ -1,5 +1,5 @@
 
-class datos {
+/*class datos {
 
     constructor(name, age, lastname, career, friends, i) {
 
@@ -21,7 +21,26 @@ class datos {
         document.write(`Soy ${this.name} ${this.lastname}, y desarrollador ${this.career} con solo ${this.age} añitos`)
         document.write(this.friends)
     }
-}
-
+    
 let student1 = new datos();
 student1.ingresar()
+}*/
+
+let addme = document.querySelector(".btn");
+console.log(addme)
+let anchor = document.querySelector(".dissapear1");
+console.log(anchor)
+
+anchor.addEventListener("click", e => {
+    console.log(e)
+    e = document.querySelector(".element1");
+    e.remove(e.selectedIndex);
+})
+
+addme.addEventListener("click", e => {
+    console.log(e)
+    e = document.querySelector(".element1");
+    e.add(e.selectedIndex);
+})
+
+

@@ -7,10 +7,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JS</title>
     <link rel="stylesheet" href="./src/vendor/bootstrap/dist/css/bootstrap.css">
+
 </head>
 
 <body>
-  
+    <form class="form-inline">
+
+        <div class="form-group mx-sm-3 mb-2">
+          <label for="inputPassword2" class="sr-only">Message</label>
+          <input type="text" class="form-control" placeholder="Message">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Add an awesome element!</button>
+      </form>
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body element1">
+          <h5 class="card-title">Element 1</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card 1</h6>
+          <p class="card-text">Using Javascript to create and delete elements.</p>
+          <a href="#" class="btn btn-primary">Edit</a>
+          <a href="#" class="btn btn-primary dissapear1">Delete</a>
+        </div>
+      </div>
+
+      <div class="alert alert-primary" role="alert">
+        Success!
+      </div>
+      <div class="alert alert-danger" role="alert">
+        Deleted :(
+      </div>
+      <script type="text/javascript" src="/src/assets/script/main.js"></script>
 </body>
 
 </html>
